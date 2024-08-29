@@ -10,7 +10,7 @@ const Tour = ({ tour, onDelete }) => {
       <p>
         {showMore ? tour.info : `${tour.info.substring(0, 200)}...`}
         <button id='see-more-rec6d6T3q5EBIdCfD' onClick={() => setShowMore(!showMore)}>
-          {showMore ? 'See less' : 'See more'}
+          {showMore ? 'Show less' : 'See more'}
         </button>
       </p>
       <p id='tour-item-para-rec6d6T3q5EBIdCfD' className="price">${tour.price}</p>
