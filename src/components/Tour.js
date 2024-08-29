@@ -9,7 +9,7 @@ const Tour = ({ tour, onDelete }) => {
       <img src={tour.image} alt={tour.name} />
       <p>
         {showMore ? tour.info : `${tour.info.substring(0, 200)}...`}
-        <button onClick={() => setShowMore(!showMore)}>
+        <button id='see-more-rec6d6T3q5EBIdCfD' onClick={() => setShowMore(!showMore)}>
           {showMore ? 'See less' : 'Show more'}
         </button>
       </p>
