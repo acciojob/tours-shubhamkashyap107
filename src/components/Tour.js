@@ -13,8 +13,8 @@ const Tour = ({ tour, onDelete }) => {
           {showMore ? 'See less' : 'Show more'}
         </button>
       </p>
-      <p className="price">${tour.price}</p>
-      <button onClick={() => onDelete(tour.id)}>Delete</button>
+      <p id='tour-item-para-rec6d6T3q5EBIdCfD' className="price">${tour.price}</p>
+      <button id='delete-btn-rec6d6T3q5EBIdCfD' onClick={() => onDelete(tour.id)}>Delete</button>
     </div>
   );
 };

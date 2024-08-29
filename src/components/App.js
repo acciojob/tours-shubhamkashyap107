@@ -57,7 +57,7 @@ const App = () => {
   };
 
   return (
-    <div className="app">
+    <div className="app" id='main'>
       {loading ? (
         <Loading />
       ) : tours.length === 0 ? (
